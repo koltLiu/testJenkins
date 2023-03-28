@@ -1,5 +1,4 @@
 package com.example.demo;
 
-public enum Test {
-
+public interface Test1 {
 }
