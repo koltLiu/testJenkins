@@ -13,6 +13,7 @@ public class DemoController {
 
     @GetMapping("hello/{str}")
     public String hello(@PathVariable String str){
+        String ss = "123";
 
         Calendar calendar = Calendar.getInstance();
         calendar.get(Calendar.HOUR_OF_DAY);
