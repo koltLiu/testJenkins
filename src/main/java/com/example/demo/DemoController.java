@@ -13,4 +13,9 @@ public class DemoController {
     public String hello(@PathVariable String str){
         return "hello:"+str;
     }
+
+    @GetMapping("hello2/{str}")
+    public String hello2(@PathVariable String str){
+        return "hello:"+str;
+    }
 }
